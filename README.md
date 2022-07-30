@@ -1,4 +1,4 @@
-# Advanced Shopping Cart Built by ReactJS and TypeScript
+## Advanced Shopping Cart Built with ReactJS and TypeScript
 ## Live demo : [https://ts-react-advanced-shopping-cart.vercel.app/](https://ts-react-advanced-shopping-cart.vercel.app/)
 
 ## Installation & Start App guide
