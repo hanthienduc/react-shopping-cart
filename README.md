@@ -9,6 +9,8 @@
 
 ## Preview 
 
+!['Display Shopping cart']('./src/assets/display-shopping-cart.png')
+
 ## Dependencies
 - "boostrap": "^2.0.0",
 - "react": "^18.2.0",
