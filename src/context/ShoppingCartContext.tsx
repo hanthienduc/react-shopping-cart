@@ -1,6 +1,6 @@
 import { createContext, ReactNode, useContext, useState } from "react";
 import { ShoppingCart } from "../components/ShoppingCart";
-import { useLocalStorage } from "./useLocalStore";
+import { useLocalStorage } from "../hooks/useLocalStore";
 
 type ShoppingCartProviderProps = {
     children: ReactNode
@@ -73,10 +73,11 @@ export function ShoppingCartProvider({ children }: ShoppingCartProviderProps) {
         })
     }
 
-
-
-
-    return <ShoppingCartContext.Provider value={{ openCart, closeCart, getItemQuantity, increaseCartQuantity, decreaseCartQuantity, removeFromCart, cartItems, cartQuantity }}>
+    return <ShoppingCartContext.Provider
+        value={{
+            openCart, closeCart, getItemQuantity, increaseCartQuantity,
+            decreaseCartQuantity, removeFromCart, cartItems, cartQuantity
+        }}>
         {children}
         <ShoppingCart isOpen={isOpen} />
     </ShoppingCartContext.Provider>
