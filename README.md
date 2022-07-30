@@ -8,8 +8,9 @@
 - the app is live on [http://localhost:5173/](http://localhost:5173/)
 
 ## Preview 
-
-!['Display Shopping cart']('./src/assets/display-shopping-cart.png')
+- !['Store'](./src/assets/ts-react-advanced-shopping-cart.png)
+- !['add'](./src/assets/shopping-cart-add-items.png)
+- !['Display'](./src/assets/display-shopping-cart.png)
 
 ## Dependencies
 - "boostrap": "^2.0.0",
